@@ -3,7 +3,7 @@
     "path": "~/R Quarto Shiny/QuartoShiny/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "340006402",
+    "hash": "2470437157",
     "contents": "",
     "dirty": false,
     "created": 1783581623116.0,
@@ -15,18 +15,18 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "37,93",
-        "scrollLine": "18",
+        "cursorPosition": "12,23",
+        "scrollLine": "0",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "118:91"
+        "rmdVisualModeLocation": "377:1533"
     },
     "folds": "",
-    "lastKnownWriteTime": 1783587709,
+    "lastKnownWriteTime": 1783591181,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1783587709222,
+    "last_content_update": 1783591181926,
     "read_only": false,
     "read_only_alternatives": []
 }

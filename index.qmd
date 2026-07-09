@@ -10,6 +10,7 @@ format:
       dark: superhero
     toc: true
     toc-title: Contents
+    toc-location: right
     number-sections: true 
     grid:
       sidebar-width: 200px
@@ -18,23 +19,53 @@ format:
       gutter-width: 1.5rem
 self-contained: true
 lang: en   
+bibliography: bibby.bib
+reference-location: margin
+citation-location: margin
 ---
 
-# My Webbie 
-This is a paragraph. 
+# My Webbie
 
-This is Paloma's website
+This is a paragraph.
+
+This is Paloma's website [@ggplot]
 
 And I went to Milan yesterday!
-![The duomo!](img/Duomo.jpeg){#fig-duomo}
+
+![The duomo!](img/Duomo.jpeg){#fig-picture}
 
 ## Subsection
 
 Sub section $X = V + E$
-$$z = \dfrac{z - \mu}{\sigma}$${#eq-myequation}
+
+$$z = \dfrac{z - \mu}{\sigma}$$ {#eq-myequation}
 
 ### SubSubSection
 
-In @eq-myequation, we wrote down an equation. And the sky was pretty in Milan when I took @fig-duomo
+In @eq-myequation, we wrote down an equation. And the sky was pretty in Milan when I took @fig-picture, in milan.
+
+:::{.column-margin}
+
+$$X = V+ E$$ {eq-ev}
+
+:::
 
 #### My Paragraph
+
+This is a paragraph
+
+:::{.grid}
+
+:::{.g-col-4}
+This is my first column
+::: 
+
+::: {g-col-4}
+Second one!
+::: 
+
+:::{g-col-4}
+And the third column 
+::: 
+
+:::
