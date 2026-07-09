@@ -1,9 +1,30 @@
 ---
 title: "My first website"
 author: "Paloma B. Lopes"
-format: html
+affilitation: "JHU"
+date: today
+format: 
+  html:
+    theme: 
+      light: minty
+      dark: superhero
+    toc: true
+    toc-title: Contents
+    number-sections: true 
+    grid:
+      sidebar-width: 200px
+      body-width: 900px
+      margin-width: 400px
+      gutter-width: 1.5rem
+self-contained: true
+lang: en   
 ---
 
 # Presentation 
+## Sub - Section 
+### Sub - Sub Section
+Text
+#### Paragraph
+Text Text Text
 
 This is Paloma's website
