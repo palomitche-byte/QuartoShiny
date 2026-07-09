@@ -12,6 +12,7 @@ format:
     toc-title: Contents
     toc-location: right
     number-sections: true 
+    caption: Show the code for this document 
     grid:
       sidebar-width: 200px
       body-width: 900px
@@ -74,6 +75,30 @@ plot(x,dx,type = "l", cex = 2, lwd =3)
 plot(x,pnorm(x),type = "l", cex = 2, lwd =3)
 plot(pnorm(x), qnorm(pnorm(x)),type = "l", cex = 2, lwd =3)
 ```
+
+```{r}
+#| echo: true
+#| error: true
+mean(y)
+```
+
+@tbl-tap
+
+```{r}
+#| tbl-cap: This is my first table
+#| label: tbl-tap
+library(knitr)
+kable(head(cars))
+```
+
+```{r}
+#| fig-column: margin
+#| tbl-cap: The table
+#| fig-cap: The plot
+kable(head(cars))
+plot(cars$speed, cars$dist)
+```
+
 
 
 
