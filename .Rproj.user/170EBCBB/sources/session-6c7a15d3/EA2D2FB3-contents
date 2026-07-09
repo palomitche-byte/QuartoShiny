@@ -20,11 +20,21 @@ self-contained: true
 lang: en   
 ---
 
-# Presentation 
-## Sub - Section 
-### Sub - Sub Section
-Text
-#### Paragraph
-Text Text Text
+# My Webbie 
+This is a paragraph. 
 
 This is Paloma's website
+
+And I went to Milan yesterday!
+![The duomo!](img/Duomo.jpeg){#fig-duomo}
+
+## Subsection
+
+Sub section $X = V + E$
+$$z = \dfrac{z - \mu}{\sigma}$${#eq-myequation}
+
+### SubSubSection
+
+In @eq-myequation, we wrote down an equation. And the sky was pretty in Milan when I took @fig-duomo
+
+#### My Paragraph
